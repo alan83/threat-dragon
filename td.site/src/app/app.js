@@ -18,6 +18,7 @@ var app = angular.module('app', ['ui.bootstrap', 'ngRoute', 'xeditable', 'ngAnim
 
 //require custom modules, services, controllers and directives
 require('./config.route');
+require('./common');
 require('./services');
 require('./layout');
 require('./welcome');

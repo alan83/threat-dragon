@@ -1,4 +1,6 @@
 'use strict';
+
+var angular = require('angular');
 var commonModule = angular.module('common', []);
 
 commonModule.provider('commonConfig', [require('./common').commonConfig]);
